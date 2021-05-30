@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 
+
 def helloworldfunction(request):
-    returnobject = HttpResponse("hello world")
+    returnobject = HttpResponse("<h1>hello world</h1>")
     return returnobject
