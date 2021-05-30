@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from django.views.generics import TemplateView
+from django.views.generic import TemplateView
+import os
 
 
 def helloworldfunction(request):
